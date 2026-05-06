@@ -15,4 +15,4 @@ Como voce poder fazer para rodar o projeto todo:
 - E para acessar o projeto, o link de login é esse: "http://localhost:5173/login".
 ```
 
-E pronto, ja deve ser possivel acessar o projeto pela pagina de login, basta registrar sua conta, fazer seu login e abrir seu estoque.
+E pronto, ja deve ser possivel acessar o projeto pela pagina de login, basta registrar sua conta, fazer o login e abrir seu estoque.
