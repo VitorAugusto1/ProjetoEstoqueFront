@@ -85,7 +85,6 @@ const Login = () => {
         <CardContent>
           <form onSubmit={handleLogin} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
 
-            {/* Email */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
               <Label style={{ color: '#1a1a1a', fontSize: '14px' }}>Email</Label>
               <Input
@@ -105,7 +104,6 @@ const Login = () => {
               )}
             </div>
 
-            {/* Senha */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
               <Label style={{ color: '#1a1a1a', fontSize: '14px' }}>Senha</Label>
               <Input
@@ -126,7 +124,6 @@ const Login = () => {
               )}
             </div>
 
-            {/* Botão Login */}
             <Button
               type="submit"
               disabled={loading}

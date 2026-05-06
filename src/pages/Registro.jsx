@@ -97,12 +97,11 @@ const Registro = () => {
           <form onSubmit={handleRegistro} autoComplete="off" style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
 
 
-            {/* Email */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
               <Label style={{ color: '#1a1a1a', fontSize: '14px' }}>Email</Label>
               <Input
                 type="text"
-                placeholder="m@example.com"
+                placeholder="m@exemplo.com"
                 value={email}
                 onChange={(e) => { setEmail(e.target.value); setErrors(p => ({ ...p, email: '' })); }}
                 style={{
@@ -136,7 +135,6 @@ const Registro = () => {
               )}
             </div>
 
-            {/* Senha */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
               <Label style={{ color: '#1a1a1a', fontSize: '14px' }}>Password</Label>
               <Input
@@ -157,7 +155,6 @@ const Registro = () => {
               )}
             </div>
 
-            {/* Confirmar Senha */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
               <Label style={{ color: '#1a1a1a', fontSize: '14px' }}>Confirm Password</Label>
               <Input
@@ -178,7 +175,6 @@ const Registro = () => {
               )}
             </div>
 
-            {/* Botão */}
             <Button
               type="submit"
               disabled={loading}

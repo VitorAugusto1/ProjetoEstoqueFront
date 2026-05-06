@@ -1,16 +1,18 @@
-# React + Vite
+# ProjetoEstoqueFront
+![Badge versão do programa](https://img.shields.io/badge/version-1.0-9cf?style=for-the-badge "Version") 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
+Este repositorio é apenas a parte Front-end do ProjetoEstoque.
 
-Currently, two official plugins are available:
+## Funcionalidade
+Como voce poder fazer para rodar o projeto todo:
+```plaintext
+- Baixe este repositorio e o repositorio do backend (https://github.com/VitorAugusto1/ProjetoEstoque)
+- Abra os dois arquivos com sua ferramenta de code.
+- O server do backend esta na porta 3000, no terminal coloque "node server.js" para iniciar o servidor.
+- O server do frontend esta na porta 5173, no terminal coloque "npm run dev" para iniciar o servidor.
+- Para conectar no seu banco de dados supabase use ".env.example", trocando apenas as informações.
+- E para acessar o projeto, o link de login é esse: "http://localhost:5173/login".
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+E pronto, ja deve ser possivel acessar o projeto pela pagina de login, basta registrar sua conta, fazer seu login e arbir seu estoque.

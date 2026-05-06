@@ -31,7 +31,7 @@ const Sidebar = ({ abaAtiva, setAbaAtiva }) => {
       flexShrink: 0,
     }}>
 
-      {/* Logo */}
+
       <div>
         <div style={{ padding: '0 20px 24px', borderBottom: '1px solid #e9d5ff' }}>
           <span style={{ color: '#7306a5', fontWeight: '700', fontSize: '18px' }}>
@@ -39,7 +39,6 @@ const Sidebar = ({ abaAtiva, setAbaAtiva }) => {
           </span>
         </div>
 
-        {/* Menu */}
         <div style={{ padding: '16px 0' }}>
           <span style={{ fontSize: '11px', fontWeight: '600', color: '#aaa', padding: '0 20px', letterSpacing: '0.08em' }}>
             MENU PRINCIPAL
@@ -77,7 +76,6 @@ const Sidebar = ({ abaAtiva, setAbaAtiva }) => {
         </div>
       </div>
 
-      {/* Usuário + Logout */}
       <div style={{ padding: '16px 20px', borderTop: '1px solid #e9d5ff' }}>
         <p style={{ fontSize: '13px', fontWeight: '600', color: '#333', margin: '0 0 12px' }}>
           {user?.email}

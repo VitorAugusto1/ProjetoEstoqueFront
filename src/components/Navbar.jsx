@@ -15,7 +15,6 @@ const Navbar = ({ titulo = 'Dashboard Overview' }) => {
       boxSizing: 'border-box',
     }}>
 
-      {/* Título */}
       <span style={{ color: 'white', fontWeight: '600', fontSize: '15px' }}>
         {titulo}
       </span>
